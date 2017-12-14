@@ -28,7 +28,7 @@ const Trade = ({
 const TradeList = ({
   trades
 }) => (
-  <Table basic='very' celled unstackable>
+  <Table basic='very' celled unstackable singleLine compact size='small'>
     <Table.Header>
       <Table.Row>
         <Table.HeaderCell>Action</Table.HeaderCell>
